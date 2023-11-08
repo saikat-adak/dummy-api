@@ -1,6 +1,6 @@
 module dummy-api/download-file
 
-go 1.18
+go 1.21.4
 
 require (
 	github.com/gin-gonic/gin v1.9.1

@@ -10,7 +10,6 @@ import (
 	"github.com/tealeg/xlsx"
 )
 
-// go 1.21.4
 func main() {
 	router := gin.Default()
 	router.GET("/download/xlsx", getDummyXlsxFile)
